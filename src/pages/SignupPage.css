@@ -1,6 +1,5 @@
 .all{
-    box-shadow: 1px 1px 1px #D4D4D4; 
-    border-style: solid;
+    border: 1px solid #D4D4D4; 
     background-color: white;
     width: 40%;
     margin: 100px 300px;
