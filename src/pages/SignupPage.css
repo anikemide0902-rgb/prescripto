@@ -15,6 +15,10 @@
     flex-direction: column;
     gap: 5px;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
 .button-blue{
     width: 100%;
     border-radius: 5px;
@@ -38,6 +42,6 @@
 .all p, .all h2{
     color: #4B5563;
 }
-.down a{
+.down link{
     color: #5F6FFF;text-decoration: underline;
 }

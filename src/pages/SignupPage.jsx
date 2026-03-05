@@ -1,6 +1,7 @@
 import React from 'react'
 import "./SignupPage.css"
 import NavComponent from '../components/NavComponent'
+import { Link } from 'react-router-dom'
 
 
 const SignupPage = () => {
@@ -8,7 +9,9 @@ const SignupPage = () => {
     <div className='sign-up'>
 
       <NavComponent />
-      <div className='all'>
+
+      <div className='wrapper'>
+        <div className='all'>
         <div className='up'>
           <h2>Create Account</h2>
           <p>Please sign up to book appointment</p>
@@ -34,8 +37,9 @@ const SignupPage = () => {
         </div>
 
         <div className='down'>
-          <p>Already have an account? <a href="">Login here</a></p>
+          <p>Already have an account?<Link to="/signin">Login here</Link></p>
         </div>
+       </div>
       </div>
     </div>
   )
