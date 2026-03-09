@@ -13,6 +13,7 @@ import SigninPage from "./pages/SigninPage";
 import SignupPage from "./pages/SignupPage";
 import SingleDoctorPage from "./pages/SingleDoctorPage";
 import Error404Page from "./pages/Error404Page";
+import ProfilePage from "./pages/ProfilePage";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/signin" element={<SigninPage />} />
       <Route path="*" element={<Error404Page/>}/>
+      <Route path="/profile" element={<ProfilePage />} />
     </Routes>
   </>
   );
