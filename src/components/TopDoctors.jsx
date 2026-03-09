@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 import { GoDotFill } from "react-icons/go";
 import male1 from "../assets/male1.png";
@@ -119,6 +120,10 @@ const TopDoctors = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="button-more">
+        <button><Link to="/all-doctors">more</Link></button>
       </div>
     </section>
   );

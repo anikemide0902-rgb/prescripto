@@ -1,13 +1,11 @@
 import React from 'react'
 import "./AboutPage.css"
-import NavComponent from '../components/NavComponent'
+import FooterComponent from '../components/FooterComponent'
 
 const AboutPage = () => {
   return (
-    <>
-    <div className='home-page'>
-          <NavComponent/> 
-    </div>
+    <div className="about-page">
+  
     <div className='about-us'>
      <h3 className='about'>ABOUT</h3>
      <h3 className='us'>US</h3>
@@ -15,7 +13,7 @@ const AboutPage = () => {
 
       <div className='aboutt'>
         <div>
-          <img src="/image 419.png" alt="" className='images' />
+          <img src="/about_image.png" alt="" className='images' />
         </div>
         <div className='text'>
         <p className='para'>Welcome to Prescripto, your trusted partner in managing your healthcare needs conveniently and efficiently. At Prescripto, we understand the challenges individuals face when it comes to scheduling doctor appointments and managing their health records.</p>
@@ -49,8 +47,9 @@ const AboutPage = () => {
      </div>
  </div>
     
+    <FooterComponent/>
     
-    </>
+    </div>
   )
 }
 

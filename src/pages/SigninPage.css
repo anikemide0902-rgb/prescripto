@@ -1,4 +1,4 @@
-.all{
+.sign-in .all{
     border: 1px solid #D4D4D4; 
     background-color: white;
     width: 40%;
@@ -6,20 +6,20 @@
     padding: 30px;
     border-radius: 10px;
 }
-.up p{
+.sign-in .up p{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.name{
+.sign-in .name{
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.wrapper{
+.sign-in .wrapper{
     display: flex;
     justify-content: center;
 }
-.button-blue{
+.sign-in .button-blue{
     width: 100%;
     border-radius: 5px;
     margin-top: 20px;
@@ -29,19 +29,19 @@
     justify-content: center;
     font-size: large;
 }
-.name input{
+.sign-in .name input{
     border-radius: 5px;
     border-color: #DADADA;
     padding: 10px;
     border-style: solid;
 }
-.form label{
+.sign-in .form label{
     margin-top: 10px;
     color: #4B5563;
 }
-.all p, .all h2{
+.sign-in .all p, .sign-in .all h2{
     color: #4B5563;
 }
-.down a{
+.sign-in .down a{
     color: #5F6FFF;text-decoration: underline;
 }

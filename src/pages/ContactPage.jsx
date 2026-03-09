@@ -1,14 +1,11 @@
 import React from 'react'
 import "./ContactPage.css"
 import { Link } from 'react-router-dom'
-import NavComponent from '../components/NavComponent'
+import FooterComponent from '../components/FooterComponent'
 
 const ContactPage = () => {
   return (
-    <>
-    <div className='home-page'>
-        <NavComponent />
-        </div>
+    <div>
 
         <div className='contact-us'>
      <h3 className='about'>CONTACT</h3>
@@ -34,7 +31,9 @@ const ContactPage = () => {
         </div>
          </div>
 
-    </>
+
+         <FooterComponent/>
+    </div>
   )
 }
 

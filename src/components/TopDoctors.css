@@ -68,3 +68,10 @@
 .doctor-card .unavailable{
     color: grey;
 }
+.button-more button{
+    border-radius: 20px;
+    padding: 10px 50px;
+    background-color: #EAEFFF;
+    border-style: hidden;
+    color: #4B5563;
+}

@@ -1,12 +1,10 @@
 import React from 'react'
 import "./SigninPage.css"
-import NavComponent from '../components/NavComponent'
+import { Link } from 'react-router-dom'
 
 const SigninPage = () => {
   return (
-    <div className='sign-up'>
-    
-          <NavComponent />
+    <div className='sign-in'>
     
           <div className='wrapper'>
             <div className='all'>
@@ -31,7 +29,7 @@ const SigninPage = () => {
             </div>
     
             <div className='down'>
-              <p>Already have an account? <a href="">Login here</a></p>
+              <p>Don't have an account? <Link to="/signup">Sign up here</Link></p>
             </div>
            </div>
           </div>

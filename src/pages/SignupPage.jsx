@@ -1,45 +1,36 @@
 import React from 'react'
 import "./SignupPage.css"
-import NavComponent from '../components/NavComponent'
 import { Link } from 'react-router-dom'
-
-
 const SignupPage = () => {
   return (
-    <div className='sign-up'>
-
-      <NavComponent />
-
-      <div className='wrapper'>
-        <div className='all'>
-        <div className='up'>
-          <h2>Create Account</h2>
+    <div className="sign-up">
+      
+      <div className='form-wrapper'>
+      <div className='form'>
+        <div>
+          <h3>Create Account</h3>
           <p>Please sign up to book appointment</p>
         </div>
-
-        <div className='form'>
-          <div className='name'>
-            <label htmlFor="fullname">Full Name</label>
-            <input type="text" name='fullname'/>
-          </div>
-
-          <div className='name'>
-            <label htmlFor="email">Email</label>
-            <input type="email" name='email'/>
-          </div>
-
-          <div className='name'>
-            <label htmlFor="password">Password</label>
-            <input type="password" name='password'/>
-          </div>
-
-          <button className='button-blue'>Create Account</button>
+        <div>
+          <h4 className='fullname'>Full Name</h4>
+          <input className='input'></input>
         </div>
 
-        <div className='down'>
-          <p>Already have an account?<Link to="/signin">Login here</Link></p>
+        <div>
+          <h4 className='fullname'>Email</h4>
+          <input className='input'></input>
         </div>
-       </div>
+
+        <div>
+          <h4 className='fullname'>Password</h4>
+          <input className='input'></input>
+        </div>
+
+        <button className='button-solid'>Create account</button>
+        <div className='already'>
+          Already have an account? <Link to="/signin">login here</Link>
+        </div>
+      </div>
       </div>
     </div>
   )
