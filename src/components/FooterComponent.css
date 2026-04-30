@@ -40,8 +40,6 @@ footer{
 @media screen and (max-width: 768px){
     footer{
         flex-direction: column;
-        width: 90%;
-        margin: 30px;
         
         
     }

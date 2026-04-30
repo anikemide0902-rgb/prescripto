@@ -1,7 +1,5 @@
 import React from 'react'
 import "./ContactPage.css"
-import { Link } from 'react-router-dom'
-import FooterComponent from '../components/FooterComponent'
 
 const ContactPage = () => {
   return (
@@ -31,8 +29,6 @@ const ContactPage = () => {
         </div>
          </div>
 
-
-         <FooterComponent/>
     </div>
   )
 }

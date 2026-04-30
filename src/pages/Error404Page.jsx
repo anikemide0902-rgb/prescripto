@@ -1,11 +1,14 @@
 import React from 'react'
 import "./Error404Page.css" 
 import { Link } from 'react-router-dom'
+import NavComponent from '../components/NavComponent'
 
     
 const Error404Page = () => {
   return (
       <div className='error-page'>
+          
+          <NavComponent/>
 
           <div className="content-wrapper">
             <img src="/404img.svg" alt="" className='error-image' />

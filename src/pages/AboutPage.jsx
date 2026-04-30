@@ -1,6 +1,5 @@
 import React from 'react'
 import "./AboutPage.css"
-import FooterComponent from '../components/FooterComponent'
 
 const AboutPage = () => {
   return (
@@ -47,7 +46,6 @@ const AboutPage = () => {
      </div>
  </div>
     
-    <FooterComponent/>
     
     </div>
   )

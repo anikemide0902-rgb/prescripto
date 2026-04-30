@@ -1,4 +1,5 @@
 import React from 'react'
+import NavComponent from '../components/NavComponent'
 import "./HomePage.css"
 import HeroComponent from '../components/HeroComponent'
 import FindBySpeciality from '../components/FindBySpeciality'
@@ -7,14 +8,15 @@ import FooterComponent from '../components/FooterComponent'
 import AppointmentComponent from '../components/AppointmentComponent'
 
 
-const HomePage = () => {
+const HomePage = (props) => {
   return (
       <div className='home-page'>
+          
           <HeroComponent /> 
           <FindBySpeciality />
-          <TopDoctors/>
-          <AppointmentComponent/>
-          <FooterComponent/>
+      <TopDoctors doctorsData = {props.doctorsData} />
+      <AppointmentComponent/>
+      <FooterComponent/>
     </div>
   )
 }
